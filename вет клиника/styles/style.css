@@ -85,7 +85,7 @@ section{
 .intro_l{
   
   position: absolute;
-  top: 300px;
+  top: 250px;
   z-index: 10;
   text-align: left;
 }
@@ -141,8 +141,8 @@ section{
 
 .intro_r{
 
-  position: absolute;
-  right: 0;
+  position: relative;
+  left: 40%;
 }
 
 .intro_r img{
@@ -152,10 +152,47 @@ section{
 
 
 
+/*About ================*/
 
 
+.info{
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: 1fr 0.6fr;
+  grid-template-rows: 200px 100px;
+  gap: 60px;
+}
+
+.text_about p {
+
+  text-align: left;
+  color: #006c83;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.numeric{
+  display: flex;
+}
+.numbers_about{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.numbers_about li {
+
+  list-style: none;
+  color: #006c83;
+  font-size: 40px;
+  font-weight: 700;
+}
 
 .burger {
 
   display: none;
+  justify-content: space-between;
+  align-items: center;
 }
