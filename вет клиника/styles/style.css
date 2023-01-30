@@ -1,8 +1,8 @@
 body{
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
-  background: url(../pictures/back.png) repeat;
-  background-size: cover;
+ /* background: url(../pictures/back.png) repeat;
+  background-size: cover;*/
 }
 
 .container {
@@ -17,7 +17,7 @@ header{
 
   padding: 30px;
   padding-bottom: 20px;
-  background-color: #efd4cd;
+ /* background-color: #efd4cd;*/
   opacity: .9;
 }
 
@@ -64,7 +64,7 @@ header{
 }
 
 h1 {
-padding-left: 5px;
+
 color: #006c83;
 font-size: 25px;
 font-weight: 700;
@@ -74,7 +74,7 @@ font-weight: 700;
 /*Intro ================*/
 
 section{
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .intro{
@@ -159,8 +159,25 @@ section{
   display: grid;
   margin-top: 30px;
   grid-template-columns: 1fr 0.6fr;
-  grid-template-rows: 200px 100px;
+  grid-template-rows: 1fr 0.5fr;
   gap: 60px;
+  grid-template-areas: 
+  "text_about pict_about"
+  "numbers_about numbers_about";
+}
+
+.text_about{
+  grid-area: text_about;
+}
+
+.pict_about{
+
+  grid-area: pict_about;
+}
+
+.numbers_about{
+
+  grid-area: numbers_about;
 }
 
 .text_about p {
@@ -169,26 +186,37 @@ section{
   color: #006c83;
   font-size: 14px;
   font-weight: 700;
+
 }
 
-.numeric{
-  display: flex;
-}
+
 .numbers_about{
 
+ display: flex;
+ justify-content: space-between;
+  
+}
+
+.numbers{
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
+.number h2{
 
-.numbers_about li {
-
-  list-style: none;
   color: #006c83;
-  font-size: 40px;
+  font-size: 70px;
   font-weight: 700;
 }
+
+.number_info{
+
+  color: #006c83;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
 
 .burger {
 
