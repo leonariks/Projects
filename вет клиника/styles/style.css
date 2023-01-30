@@ -218,6 +218,55 @@ section{
 }
 
 
+/*About ================*/
+
+.choice{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 150px;
+  gap: 60px;
+}
+
+.table{
+
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #006c83;
+  padding: 10px;
+  transition: .3s;
+}
+
+.table:hover{
+
+  background-color: #c7dadf;
+  cursor: pointer;
+}
+
+.table h3{
+
+  margin-top: 10px;
+  color: #006c83;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.table p{
+
+  margin-top: 10px;
+  color: #006c83;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
 .burger {
 
   display: none;
