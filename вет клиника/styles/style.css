@@ -295,6 +295,22 @@ section{
   font-weight: 400;
 }
 
+.vaccination{
+
+  display: none;
+}
+
+.surgery{
+
+  display: none;
+}
+
+.therapy{
+
+  display: none;
+}
+
+
 
 table{
 
