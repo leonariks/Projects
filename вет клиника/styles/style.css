@@ -68,13 +68,12 @@ h1 {
 color: #006c83;
 font-size: 25px;
 font-weight: 700;
-
 }
 
 /*Intro ================*/
 
 section{
-  margin-top: 70px;
+  margin: 70px;
 }
 
 .intro{
@@ -224,14 +223,15 @@ section{
   margin-top: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 150px;
-  gap: 60px;
+  grid-template-rows: 160px;
+  gap: 20px;
 }
 
 .table{
 
   border-radius: 5px;
   box-shadow: 0px 0px 10px #006c83;
+  align-items: center;
   padding: 10px;
   transition: .3s;
 }
@@ -247,7 +247,7 @@ section{
   margin-top: 10px;
   color: #006c83;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .table p{
@@ -256,6 +256,13 @@ section{
   color: #006c83;
   font-size: 16px;
   font-weight: 400;
+}
+
+.table img{
+
+  padding-top: 5px;
+  padding-left: 15px;
+  height: 40px;
 }
 
 
