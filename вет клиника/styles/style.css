@@ -183,8 +183,8 @@ section{
 
   text-align: left;
   color: #006c83;
-  font-size: 14px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 400;
 
 }
 
@@ -267,11 +267,73 @@ section{
 
 
 
+.services_about{
+
+  display: flex;
+  max-width: 100%;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.services_about .services_info{
+
+  width: 40%;
+}
+
+.services_info h3{
+
+  color: #006c83;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.services_info p{
+
+  color: #006c83;
+  font-size: 16px;
+  font-weight: 400;
+}
 
 
+table{
 
+  color: #006c83;
+  font-size: 16px;
+  font-weight: 700;
+  border-collapse: collapse;
+}
 
+.table_titles{
+  background-color: #006c83;
+  color: #fff;
+}
 
+.table_titles td{
+
+  padding: 10px 15px;
+}
+
+tbody{
+
+  font-weight: 400;
+}
+
+tbody td{
+  border-bottom: 1px solid #006c83;
+}
+
+tbody tr td:first-child{
+
+  text-align: left;
+  padding: 15px;
+  padding-right: 100px;
+}
+
+tbody tr td:last-child{
+
+  text-align: center;
+}
 
 
 .burger {
