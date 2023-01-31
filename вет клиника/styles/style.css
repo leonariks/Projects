@@ -66,8 +66,20 @@ header{
 h1 {
 
 color: #006c83;
-font-size: 25px;
+font-size: 23px;
 font-weight: 700;
+}
+
+.title{
+
+  display: flex;
+}
+
+.title img{
+
+  width: 40px;
+  margin-left: 10px;
+  transform: rotate(35deg);
 }
 
 /*Intro ================*/
@@ -242,6 +254,10 @@ section{
   cursor: pointer;
 }
 
+.table:hover:first-child{
+  display: block;
+}
+
 .table h3{
 
   margin-top: 10px;
@@ -352,9 +368,84 @@ tbody tr td:last-child{
 }
 
 
+
+
+
+
+
+
+
+/*Doctors ================*/
+
+.docs{
+
+  display: flex;
+  max-width: 100%;
+}
+
+
+.doctor_choice{
+
+  margin-top: 20px;
+}
+
+.doc{
+
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin-top: 10px;
+  transition: .5s;
+  border: 3px solid transparent;
+  border-radius: 10px;
+}
+
+.doc:hover{
+
+  border: 3px solid #c7dadf;
+}
+
+.doc img{
+
+  width: 60px;
+}
+
+.doc_des{
+
+ padding-right: 25px;
+ padding-left: 10px;
+ text-align: left;
+}
+
+.doc_des h3{
+
+  color: #006c83;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.doc_des p{
+
+  color: #006c83;
+  font-size: 14px;
+  font-weight: 400
+}
+
+.doc_img{
+
+  position: absolute;
+  width: 350px;
+  right: 40%;
+  z-index: 10;
+}
+
+
+
 .burger {
 
   display: none;
   justify-content: space-between;
   align-items: center;
 }
+
+
