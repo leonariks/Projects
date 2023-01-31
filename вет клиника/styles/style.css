@@ -120,6 +120,12 @@ font-weight: 700;
   width: 40px;
   margin-left: 10px;
   transform: rotate(35deg);
+  transition: 1s;
+}
+
+.title img:hover{
+
+  transform: rotate(395deg);
 }
 
 /*Intro ================*/
@@ -203,6 +209,7 @@ section{
 .numbers_about{
 
   grid-area: numbers_about;
+  cursor: pointer;
 }
 
 .text_about p {
@@ -282,6 +289,7 @@ section{
   padding-left: 15px;
   height: 40px;
 }
+
 
 
 
@@ -369,6 +377,7 @@ tbody tr td:last-child{
 
 .doctor_choice{
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .doc{
@@ -409,14 +418,20 @@ tbody tr td:last-child{
 }
 
 .desc_border{
-  border: 1px solid #efd4cd;
+  border: 2px solid #efd4cd;
   border-radius: 20px;
   padding: 30px;
   padding-left: 110px;
 }
 
-.doctors_desc .btn{
+.desc_border :nth-child(2){
 
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+.doctors_desc .btn{
   text-align: right;
   margin-top: 20px;
 }
